@@ -1,0 +1,133 @@
+.form-controller {
+    display: inline-block;
+    font-size: 0;
+}
+
+.label-controller {
+    line-height: 40px;
+    width: 100px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.input-controller {
+    display: inline-block;
+}
+
+.input-controller[type="text"],
+.input-controller [type="text"],
+.input-controller[type="password"],
+.input-controller [type="password"] {
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 18px;
+    width: 178px;
+    margin: 0;
+}
+
+.select-controller {
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 18px;
+    border-radius: 0;
+    width: 198px;
+}
+
+.input-select-controller {
+    display: inline-block;
+    font-size: 0;
+}
+
+.input-select-controller .input-controller[type="text"],
+.input-select-controller .input-controller[type="password"] {
+    width: 82px;
+    font-size: 18px;
+}
+
+.input-select-controller .select-controller {
+    font-size: 18px;
+    width: 112px;
+    margin-left: -1px;
+}
+
+.checkbox-controller {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 0;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.checkbox-controller:before {
+    content: '';
+    display: block;
+    width: 14px;
+    margin: 3px;
+    height: 14px;
+    transition: all .2s ease-in-out;
+    transform: scale(.5);
+    background-color: transparent;
+}
+
+.checkbox-controller.activated:before {
+    background-color: #379bf8;
+    transform: scale(1);
+}
+
+.checkbox-controller [type="checkbox"] {
+    display: none;
+}
+
+.radio-controller-wrap {
+    display: inline-block;
+    line-height: 26px;
+    font-size: 0;
+}
+
+.radio-controller {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.radio-controller:after {
+    display: block;
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin: 4px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+    transform: scale(.5);
+    background-color: transparent;
+}
+
+.radio-controller.activated:after {
+    border: 1px solid #ddd;
+    background-color: #379bf8;
+    transform: scale(1);
+}
+
+.radio-text {
+    padding-left: 10px;
+    font-size: 18px;
+    color: #333;
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+.radio-controller [type="radio"] {
+    display: none;
+}

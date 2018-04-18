@@ -1,0 +1,10 @@
+.input-controller[type="text"].error,
+.input-controller [type="text"].error,
+.input-controller[type="password"].error,
+.input-controller [type="password"].error {
+    border-color: red;
+}
+
+.select-controller.error {
+    border-color: red;
+}

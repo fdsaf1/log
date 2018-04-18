@@ -1,0 +1,61 @@
+.btn {
+   background-color: transparent;
+   border: 1px solid transparent;
+   height: 37px;
+   width: 96px;
+   font-size: 18px;
+   padding: 0;
+   outline: none;
+   position: relative;
+   cursor: pointer;
+}
+.btn-oval  {
+    border-radius: 19px;
+}
+.btn-default {
+    background-color: #999999;
+    color: #fff;
+}
+.btn-light {
+    background-color: #379bf8;
+    color: #fff;
+}
+.btn-light.btn-clear {
+    background-color: #fff;
+    border-color: #379bf8 ;
+    color: #379bf8;
+}
+.btn-white {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+.btn-white-activated,
+.btn-white:active {
+    opacity: .8;
+}
+.btn-default-activated,
+.btn-default:active {
+    opacity: .8;
+}
+.btn-light-activated,
+.btn-light:active {
+    background-color: #014f99;
+    outline: none;
+}
+.btn-light-disabled,
+.btn-light:disabled {
+    background-color: #799dbf;
+    outline: none;
+}
+.btn-light-activated.btn-clear,
+.btn-light.btn-clear:active {
+     background-color: #379bf8;
+     color: #fff;
+     opacity: .8;
+}
+.btn-light-disabled.btn-clear,
+.btn-light.btn-clear:disabled {
+     background-color: #799dbf;
+     color: #fff;
+}
